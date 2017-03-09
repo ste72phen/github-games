@@ -169,7 +169,7 @@ var Stats = function() {
             s(B.data, Math.min(30, 30 - n / 200 * 30), "ms");
             c.innerHTML = '<span style="font-weight:bold">' + n + " MS</span> (" + z + "-" + A + ")";
             o.putImageData(B, 0, 0);
-            F = j
+            F = j;
             if (j >
                 v + 1E3) {
                 l = Math.round(u * 1E3 / (j - v));
